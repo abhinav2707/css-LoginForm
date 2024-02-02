@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3498db;
+    color: #ecf0f1;
+    text-align: center;
+    margin: 0;
+}
+
+/* Login Container Styling */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative; /* Add position relative for absolute positioning */
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* Form Styling */
+form {
+    position: relative;
+}
+
+label {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555; /* Adjust label text color */
+    position: absolute;
+    left: 10px; /* Adjust left position */
+    top: -10px; /* Adjust top position */
+    background-color: #fff; /* Match background color to container */
+    padding: 0 5px; /* Add padding for better appearance */
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%; /* Set input width to 100% */
+}
+
+button {
+    background-color: #3498db;
+    color: #ecf0f1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px; /* Add margin for spacing */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
